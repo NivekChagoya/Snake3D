@@ -18,13 +18,19 @@ El juego de la serpiente 3D se elaboró como parte de un proyecto final de la ma
 ### Controles 
 ------------
 > **I** - Comenzar el juego.
+> 
 > **A** - Girar serpiente a la izquierda.
+> 
 > **D** - Girar serpiente a la derecha.
+> 
 > **Q** - Finalizar el Juego.
 
 ### Reglas del Juego
 ------------
 **1.** El juego comenzará en pausa, para poder iniciarlo deberas oprimir la tecla **I**.
+
 **2.** La serpiente deberá buscar y comer comida en todo el escenario  y cuando  está encuentre su tamaño ira aumentando asi mismo su velocidad aumentara.
+
 **3.** Si la serpiente llega a topar con el borde del escenario, automaticamente el juego finalizará y deberás comenzar desde el inicio.
+
 **4.** Si la serpiente llega a topar con su propio cuerpo, de igual manera el juego finalizará y deberás comenzar desde el inicio.
