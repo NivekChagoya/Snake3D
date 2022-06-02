@@ -1,13 +1,13 @@
-## :tw-1f40d: SERPIENTE 3D CON OPENGL Y C++ :tw-1f40d: 
+## SERPIENTE 3D CON OPENGL Y C++
 
-:tw-1f538:El juego de la serpiente 3D se elaboró como parte de un proyecto final de la materia de Graficacion en el Instituto Tecnologico de Oaxaca y se encuentra implementado en el lenguaje C++, usando visual studio como IDE y las librerias OpenGL y FreeGlut.
+El juego de la serpiente 3D se elaboró como parte de un proyecto final de la materia de Graficacion en el Instituto Tecnologico de Oaxaca y se encuentra implementado en el lenguaje C++, usando visual studio como IDE y las librerias OpenGL y FreeGlut.
 
-###:tw-1f4ce: Requisitos
+### Requisitos
 ------------
 - OpenGL (GL, GLU, GLUT)
 - Visual Studio 2015 o superior.
 
-###:tw-1f4ce: Configuracion de Visual Studio
+### Configuracion de Visual Studio
 ------------
 - Descargar el kit de herramientas de OpenGL.
 - Acceder a las propiedades del proyecto.
@@ -15,14 +15,14 @@
 - Dirigirnos al apartado de** Vinculador** y posteriormente en la sección de **General** y en la linea de **directorios de bibliotecas adicionales** especificar la ruta del directorio de las bibliotecas descargadas.
 - Dirigirnos dentro del mismo apartado** Vinculador** a la sección de **Entrada** y en la linea de **dependencias adicionales** agregar lo siguiente: **glut32.lib**
 
-###Controles 
+### Controles 
 ------------
 > **I** - Comenzar el juego.
-**A** - Girar serpiente a la izquierda.
-**D** - Girar serpiente a la derecha.
-**Q** - Finalizar el Juego.
+> **A** - Girar serpiente a la izquierda.
+> **D** - Girar serpiente a la derecha.
+> **Q** - Finalizar el Juego.
 
-### :tw-26a0: Reglas del Juego :tw-26a0:
+### Reglas del Juego
 ------------
 **1.** El juego comenzará en pausa, para poder iniciarlo deberas oprimir la tecla **I**.
 **2.** La serpiente deberá buscar y comer comida en todo el escenario  y cuando  está encuentre su tamaño ira aumentando asi mismo su velocidad aumentara.
