@@ -12,8 +12,8 @@ El juego de la serpiente 3D se elaboró como parte de un proyecto final de la ma
 - Descargar el kit de herramientas de OpenGL.
 - Acceder a las propiedades del proyecto.
 - Dirigirnos al apartado de **C/C++** y posteriormente en en la sección de **General** y en la linea de **Directorios de inclusion adicionales** especificar la ruta del directorio de las librerias descargadas.
-- Dirigirnos al apartado de** Vinculador** y posteriormente en la sección de **General** y en la linea de **directorios de bibliotecas adicionales** especificar la ruta del directorio de las bibliotecas descargadas.
-- Dirigirnos dentro del mismo apartado** Vinculador** a la sección de **Entrada** y en la linea de **dependencias adicionales** agregar lo siguiente: **glut32.lib**
+- Dirigirnos al apartado de **Vinculador** y posteriormente en la sección de **General** y en la linea de **directorios de bibliotecas adicionales** especificar la ruta del directorio de las bibliotecas descargadas.
+- Dirigirnos dentro del mismo apartado **Vinculador** a la sección de **Entrada** y en la linea de **dependencias adicionales** agregar lo siguiente: **glut32.lib**
 
 ### Controles 
 ------------
@@ -34,3 +34,7 @@ El juego de la serpiente 3D se elaboró como parte de un proyecto final de la ma
 **3.** Si la serpiente llega a topar con el borde del escenario, automaticamente el juego finalizará y deberás comenzar desde el inicio.
 
 **4.** Si la serpiente llega a topar con su propio cuerpo, de igual manera el juego finalizará y deberás comenzar desde el inicio.
+
+### Visualización del Juego
+------------
+[![Snake3D](https://i.ibb.co/3fd86gM/dede.png "Snake3D")](https://i.ibb.co/3fd86gM/dede.png "Snake3D")
